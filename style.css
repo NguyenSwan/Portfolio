@@ -191,7 +191,6 @@ html {
 
 
 
-
 /* about section */
 .about {
     background-color: #222;
@@ -718,4 +717,30 @@ html {
     border-radius: 50px;
     background: #E4003A;
     cursor: pointer;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .contact .contact-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .contact-left {
+        width: 90%;
+        align-items: center;
+    }
+
+    .contact-input {
+        width: 100%;
+    }
+
+    .contact-left button {
+        width: 100%;
+    }
+
+    .contact-right img {
+        max-width: 80%;
+    }
 }
